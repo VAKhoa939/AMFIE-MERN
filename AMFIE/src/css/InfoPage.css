@@ -1,0 +1,26 @@
+.asset-info-background {
+  height: 100vh;
+  width: calc(100vw - 300px);
+  position: relative;
+  background-color: black;
+}
+
+.asset-info-background .container {
+  width: 800px;
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+
+  position: absolute;
+  inset: 0;
+  margin: auto;
+}
+
+.asset-info-background .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
