@@ -1,7 +1,7 @@
 import { Table } from "@tanstack/react-table";
 import { BsFilterLeft, BsChevronLeft, BsChevronRight } from "react-icons/bs";
 import { useState } from "react";
-import "../../css/FilterSidebar.css";
+import "../../css/FilterSideBar.css";
 import { Column } from "../utils/tableColumns";
 
 interface FilterSidebarProps {
